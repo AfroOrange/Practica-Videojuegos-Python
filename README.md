@@ -1,8 +1,8 @@
-Sistema de Gestión de Videojuegos
+# Sistema de Gestión de Videojuegos
 Este es un programa de consola en Java para gestionar un inventario de videojuegos, usuarios y compras. Permite realizar diversas operaciones como agregar nuevos videojuegos, usuarios, realizar compras, entre otros.
 
 ---------------------------------------------------------------------------------------------------------------------
-Funcionalidades
+## Funcionalidades
 El sistema cuenta con las siguientes funcionalidades:
 
 Mostrar lista de videojuegos: Muestra la lista de todos los videojuegos disponibles en el inventario.
@@ -25,15 +25,15 @@ compras.txt: Archivo que registra las compras realizadas.
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Requisitos
+## Requisitos
 Para ejecutar el programa se requiere tener instalado Java Development Kit (JDK) en el sistema.
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Instrucciones de uso
-Clona este repositorio en tu máquina local.
-Asegúrate de tener Python instalado en tu sistema. Puedes descargarlo desde python.org.
-Abre una terminal y navega hasta el directorio del proyecto clonado.
-Ejecuta el programa principal con el siguiente comando:
+## Instrucciones de uso
 
-python main.py
+1. Clona este repositorio en tu máquina local.
+2. Asegúrate de tener Python instalado en tu sistema. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
+3. Abre una terminal y navega hasta el directorio del proyecto clonado.
+4. Ejecuta el programa principal con el siguiente comando:
+
