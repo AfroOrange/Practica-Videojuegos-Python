@@ -10,27 +10,30 @@ def main_menu():
         print("3. Mostrar lista de usuarios")
         print("4. Añadir nuevo usuario")
         print("5. Comprar videojuego ")
-        print("6. Cerrar sesión")
+        print("6. Buscar usuario por DNI ")
+        print("7. Cerrar sesión")
 
-        choice = input("Introducir opción: (1-6): ")
+        choice = input("Introducir opción: (1-7): ")
 
         if choice == "1":
             Videojuegos.mostrar_videojuegos()
         elif choice == "2":
-            add_new_game_menu()
+            menu_AñadirJuego()
         elif choice == "3":
             Usuarios.mostrar_usuarios()
         elif choice == "4":
-            add_new_user_menu()
+            menu_AñadirUsuario()
         elif choice == "5":
             buy_game_menu()
         elif choice == "6":
+            menu_BuscarUsuario()
+        elif choice == "7":
             print("Sesión finalizada")
             break
         else:
-            print("Opción no válida. Introduce un nuevo número del (1-6)")
+            print("Opción no válida. Introduce un nuevo número del (1-7)")
 
-def add_new_game_menu():
+def menu_AñadirJuego():
     try:
         nombre = input("Introducir nombre del videojuego: ")
         consola = input("Introducir nombre de la consola", Videojuegos.nombres_validos)
@@ -46,7 +49,19 @@ def add_new_game_menu():
     except Exception as e:
         print(f"Error encontrado: {e}")
 
-def add_new_user_menu():
+def menu_BuscarUsuario():
+    try:
+        dni = input ("Introducir DNI del usuario: ")
+        Usuarios.buscar_usuario()
+
+    except ValueError as ve:
+        print(ve)
+
+    except Exception as e:
+        print(f'Usuario no encontrado', {e})
+
+
+def menu_AñadirUsuario():
     try:
         dni = input("Introducir DNI del usuario: ")
         nombre = input("Introducir nombre de usuario: ")

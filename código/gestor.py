@@ -68,5 +68,3 @@ class GestorCompras:
             print("Error al leer o escribir el archivo.")
         except Exception as e:
             print(f"Error: {e}")
-
-GestorCompras.mostrar_compra()

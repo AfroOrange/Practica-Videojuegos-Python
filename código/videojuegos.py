@@ -67,4 +67,3 @@ class Videojuegos:
             for line in datos:
                 juegosPath.write(line)
                 
-Videojuegos.mostrar_videojuegos()
