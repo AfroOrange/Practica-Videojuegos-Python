@@ -30,10 +30,10 @@ compras.txt: Archivo que registra las compras realizadas.
 2. Asegúrate de tener Python instalado en tu sistema. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
 3. Abre una terminal y navega hasta el directorio del proyecto clonado.
 4. Ejecuta el programa principal con el siguiente comando:
-   
-         python main.py
+---------------------------------------------------------------------------------------------------------------------   
+      python main.py
 
----------------------------------------------------------------------------------------------------------------------
+
 
 
 
