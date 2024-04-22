@@ -13,11 +13,10 @@ Comprar videojuego: Permite a un usuario realizar la compra de un videojuego, di
 Estructura del proyecto
 El proyecto está estructurado de la siguiente manera:
 
-src: Contiene los archivos fuente del programa en Java.
-Main.java: Clase principal que contiene el menú principal y las interacciones con el usuario.
-Videojuegos.java: Clase que representa los videojuegos y sus métodos.
-Usuarios.java: Clase que representa a los usuarios y sus métodos.
-GestorCompras.java: Clase que gestiona las compras de videojuegos.
+Main.py: Clase principal que contiene el menú principal y las interacciones con el usuario.
+Videojuegos.py: Clase que representa los videojuegos y sus métodos.
+Usuarios.py: Clase que representa a los usuarios y sus métodos.
+Gestor.py: Clase que gestiona las compras de videojuegos.
 txtfiles: Carpeta que contiene los archivos de texto donde se almacenan los datos de videojuegos, usuarios y compras.
 juegos.txt: Archivo que contiene la información de los videojuegos.
 usuarios.txt: Archivo que contiene la información de los usuarios.
