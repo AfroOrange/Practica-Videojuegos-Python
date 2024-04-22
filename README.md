@@ -6,9 +6,13 @@ Este es un programa de consola en Java para gestionar un inventario de videojueg
 El sistema cuenta con las siguientes funcionalidades:
 
 Mostrar lista de videojuegos: Muestra la lista de todos los videojuegos disponibles en el inventario.
+
 Añadir nuevo videojuego: Permite agregar un nuevo videojuego al inventario especificando su nombre, consola, estado y stock.
+
 Mostrar lista de usuarios: Muestra la lista de todos los usuarios registrados en el sistema.
+
 Añadir nuevo usuario: Permite agregar un nuevo usuario al sistema especificando su DNI, nombre, apellidos, teléfono y correo electrónico.
+
 Comprar videojuego: Permite a un usuario realizar la compra de un videojuego, disminuyendo su stock en caso de disponibilidad.
 
 ---------------------------------------------------------------------------------------------------------------------
