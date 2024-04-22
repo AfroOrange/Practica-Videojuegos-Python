@@ -31,7 +31,7 @@ compras.txt: Archivo que registra las compras realizadas.
 3. Abre una terminal y navega hasta el directorio del proyecto clonado.
 4. Ejecuta el programa principal con el siguiente comando:
    
-`python main.py`
+         python main.py
 
 ---------------------------------------------------------------------------------------------------------------------
 
